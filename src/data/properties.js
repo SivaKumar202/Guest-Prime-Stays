@@ -1,0 +1,86 @@
+/** Property content transcribed from the supplied Guest Prime Stays HTML. */
+export const properties = [
+  {
+    id: 'midtown-showpiece',
+    name: 'Midtown Showpiece',
+    category: 'luxury',
+    categoryLabel: 'Luxury villa',
+    capacity: 12,
+    bedrooms: 6,
+    bathrooms: '4.5',
+    image: '/images/hero-midtown-showpiece.jpg',
+    imageAlt: "Midtown Showpiece — photograph from Arifur's Airbnb listing",
+    description:
+      'Make a weekend of it. A private pool and generous gathering spaces give the whole group room to settle in.',
+    amenities: 'Private pool · Rooftop deck · Movie theater',
+    airbnbId: '746387330535918328',
+  },
+  {
+    id: 'edgewood-cottage',
+    name: 'The Edgewood Cottage',
+    category: 'family',
+    categoryLabel: 'City cottage',
+    capacity: 8,
+    bedrooms: 4,
+    bathrooms: '2',
+    image: '/images/edgewood-cottage.jpg',
+    imageAlt: "The Edgewood Cottage — photograph from Arifur's Airbnb listing",
+    description:
+      'Start with coffee together, then head out to explore. A comfortable four-bedroom base with train connections into the city.',
+    amenities: 'Single-level living · Train access · Open kitchen',
+    airbnbId: '40900502',
+  },
+  {
+    id: 'berkeley-cottage',
+    name: 'The Berkeley Cottage',
+    category: 'family',
+    categoryLabel: 'Historic cottage',
+    capacity: 7,
+    bedrooms: 2,
+    bathrooms: '2',
+    image: '/images/berkeley-cottage.jpg',
+    imageAlt: "The Berkeley Cottage — photograph from Arifur's Airbnb listing",
+    description:
+      'Porch mornings and fireside evenings. A character-filled cottage for families, friends and an easy Atlanta escape.',
+    amenities: 'Front porch · Fire pit lounge · Near Georgia Tech',
+    airbnbId: '30588087',
+  },
+  {
+    id: 'urban-nature-retreat',
+    name: 'Urban Nature Retreat',
+    category: 'retreat',
+    categoryLabel: 'Treehouse-inspired escape',
+    capacity: 4,
+    bedrooms: 2,
+    bathrooms: '2',
+    image: '/images/urban-nature-retreat.jpg',
+    imageAlt: "Urban Nature Retreat — photograph from Arifur's Airbnb listing",
+    description:
+      'A little breathing room in the city. Return from a day out to a private rooftop deck and a quieter pace.',
+    amenities: 'Rooftop lounge · Gas fireplace · Two bedrooms',
+    airbnbId: '1254436691437367245',
+  },
+  {
+    id: 'two-cottages-one-getaway',
+    name: 'Two Cottages, One Getaway',
+    category: 'group',
+    categoryLabel: 'Combined two-home booking',
+    capacity: 12,
+    bedrooms: 4,
+    bathrooms: '4',
+    image: '/images/two-cottages.jpg',
+    imageAlt: "Two Cottages, One Getaway — photograph from Arifur's Airbnb listing",
+    description:
+      'Bring everyone, keep your own space. Book Berkeley Cottage and Urban Nature Retreat together for one group stay.',
+    amenities: 'Two kitchens · Separate homes · Shared trip',
+    airbnbId: '1249998563498168782',
+  },
+];
+
+export const collectionFilters = [
+  { id: 'all', label: 'All stays' },
+  { id: 'luxury', label: 'Luxury escape' },
+  { id: 'family', label: 'Family & friends' },
+  { id: 'retreat', label: 'Quiet retreat' },
+  { id: 'group', label: 'Two-home getaway' },
+];

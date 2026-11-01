@@ -1,0 +1,28 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-gp-red: #d80b26;
+  --color-gp-ink: #171717;
+  --font-sans: 'DM Sans', Arial, Helvetica, sans-serif;
+}
+
+:root { font-family: 'DM Sans', Arial, Helvetica, sans-serif; color: #171717; background: #fff; font-synthesis: none; text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; }
+html { scroll-behavior: smooth; scroll-padding-top: 92px; }
+body { margin: 0; min-width: 320px; }
+a, button, input, select { -webkit-tap-highlight-color: transparent; }
+a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible { outline: 3px solid #e50c29; outline-offset: 4px; }
+::selection { background: #d80b26; color: white; }
+
+
+/* Phase 6: accessibility and responsive polish */
+img { display: block; max-width: 100%; }
+summary:focus-visible { outline: 3px solid #e50c29; outline-offset: 4px; border-radius: 4px; }
+html { scroll-padding-top: 100px; }
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
